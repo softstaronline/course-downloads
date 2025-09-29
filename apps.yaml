@@ -1,0 +1,32 @@
+# apps.yaml - lista canônica de apps (português)
+# Campos:
+# - nome: nome exibido
+# - descricao: curta (uma linha)
+# - sistema: Windows / macOS / Linux
+# - url_oficial: link direto ou página do projeto (usado quando github_repo não informado)
+# - github_repo: opcional, repo no formato owner/repo para puxar a última release
+# - compute_checksum: opcional true/false (se true, o script tentará baixar o asset escolhido e calcular SHA-256)
+apps:
+  - nome: OBS Studio
+    descricao: Gravação e streaming ao vivo
+    sistema: Windows
+    github_repo: obsproject/obs-studio
+    compute_checksum: false
+
+  - nome: Audacity
+    descricao: Edição de áudio multiplataforma
+    sistema: macOS
+    url_oficial: https://www.audacityteam.org/download/mac/
+    compute_checksum: false
+
+  - nome: GSmartControl
+    descricao: Interface gráfica para smartctl (diagnóstico de discos)
+    sistema: Linux
+    github_repo: alex-sontag/gsmartcontrol
+    compute_checksum: false
+
+  - nome: CrystalDiskMark
+    descricao: Benchmark de disco para Windows
+    sistema: Windows
+    url_oficial: https://crystalmark.info/en/software/crystaldiskmark/
+    compute_checksum: false

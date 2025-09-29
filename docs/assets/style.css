@@ -1,0 +1,15 @@
+/* Minimal styles: neutro e responsivo */
+body { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial; background:#f7f7f7; color:#111; margin:0; padding:24px; }
+.site-header { display:flex; align-items:center; gap:16px; margin-bottom:18px; }
+.site-header h1 { margin:0; font-size:20px; }
+.badge { background:#e9eefc; color:#072d9f; padding:6px 8px; border-radius:6px; font-size:12px; }
+.cards-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap:14px; margin-top:12px; }
+.card { background:white; padding:12px; border-radius:8px; box-shadow: 0 4px 12px rgba(15,15,15,0.06); display:flex; gap:12px; align-items:center; }
+.icon { width:48px; height:48px; background:#f1f5ff; display:flex; align-items:center; justify-content:center; border-radius:8px; font-weight:700; color:#0066ff; }
+.card-body { flex:1; }
+.card-title { margin:0; font-size:15px; font-weight:600; }
+.card-desc { margin:6px 0 0 0; font-size:13px; color:#4b5563; }
+.card-meta { margin-top:8px; display:flex; gap:8px; align-items:center; }
+.tag { background:#eef2ff; color:#0b4dd6; padding:4px 8px; border-radius:999px; font-size:12px; }
+.btn { background:#0066ff; color:white; padding:8px 12px; border-radius:8px; text-decoration:none; font-weight:600; font-size:13px; }
+footer { margin-top:26px; color:#6b7280; font-size:13px; }
